@@ -6,7 +6,7 @@ DataScout: does a quick search and returns the number of data entries per index 
 - the example i used was "Tau" and index: 42 since there were many data points and allowed for a higher-accuracy machine learning model to be produced. 
 
 DataSeekProcess class: seeks data on the specified target protein and its index, then processes bioactivity data from the database.
-Initially searching for a target protein and fetches relevant bioactivity data and passes it down a pipeline of data processing and 'cleaning' functions until a molecular fingerprint file is obtained through Padel (PadlePy). 
+Initially searching for a target protein and fetches relevant bioactivity data and passes it down a pipeline of data processing and 'cleaning' functions until a molecular fingerprint file is obtained through Padel (PadelPy). 
 It is then combined with pIC50 values to generate the processed dataframe (.csv) for the next class.
 
 ModelBuilder: builds regression machine learning model based on the previously parsed data.
