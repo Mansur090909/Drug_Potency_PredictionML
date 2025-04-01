@@ -23,6 +23,6 @@ Includes a SMILES validate function in case the file provided by the user is inc
 
 Future improvements:
 - Finish off the compare_model(self) function -> compares model performance against other models using lazyregression
-- Rename the files to match the classes - I renamed them quite a bit
+- More comms and docstrings
 - Data Visualizations
 - maybe a GUI
