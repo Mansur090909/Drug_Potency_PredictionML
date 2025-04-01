@@ -20,6 +20,14 @@ Accepts a Simplified Molecular Input Line Entry System, or SMILES file containin
 With a specified saved model, each compound will have their pIC50 values predicted and a .csv file containing their ID/Names, SMILES, pIC50 values will be put into an output file named by the user.
 Includes a SMILES validate function in case the file provided by the user is incorrectly/inconsistently spaced (but does require at least one space in between the compound and ID), or does not label the compound -> outputs a validated smiles file (.txt)
 
+REQUIREMENTS (pip install these):
+- chembl_webresource_client
+- pandas
+- numpy
+- seaborn
+- padelpy -> also search online and download the PaDEL descriptor software, unzip the package and copy all the xml files to a new folder in your project directory
+- scikit-learn
+- lazypredict
 
 Future improvements:
 - Finish off the compare_model(self) function -> compares model performance against other models using lazyregression
