@@ -1,4 +1,4 @@
-This project is capable of generating unique machine learning models from a set of data acquired through ChEMBL, a chemical database containing information on bioactive molecules with drug-like properties.
+Essentially a Customizable Machine Learning Pipeline, this project is capable of generating unique machine learning models from a set of data acquired through ChEMBL, a chemical database containing information on bioactive molecules with drug-like properties.
 It then allows for prediction of any chemical compound's potency against a specified target protein via any of the produced machine learning models. The entire process of this and classes are explained below.
 
 DataScout: does a quick search and returns the number of data entries per index produced by the chembl search. Returns the largest 20 sorted greatest to smallest.
