@@ -8,7 +8,7 @@ from pathlib import Path
 import pickle as pkl
 
 
-class MachineBuilder:
+class ModelBuilder:
     """
     Builds machine learning model based on data produced by the DataWorker class
     \n cleans the data once the class is initialized, ready for machine learning model generation, assessment and comparison against other models
